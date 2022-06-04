@@ -15,6 +15,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Application.Interfaces;
 using Application.Mappings;
+using Application.Services;
+using WebAPI.Installers;
 
 namespace WebAPI
 {
@@ -30,19 +32,8 @@ namespace WebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IPostRepository, PostRepository>();
-            services.AddScoped<IPostService, IPostService>();
-
-
-            services.AddSingleton(AutoMapperConfig.Initialize());
-
-
-            services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI", Version = "v1" });
-            });
+            services.InstallServiceInAssembly(Configuration);
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

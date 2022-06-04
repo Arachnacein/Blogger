@@ -15,3 +15,6 @@ C:\Users\jakub\source\repos\Blogger\Infrastructure\obj\Debug\net5.0\Infrastructu
 C:\Users\jakub\source\repos\Blogger\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 C:\Users\jakub\source\repos\Blogger\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\jakub\source\repos\Blogger\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\jakub\source\repos\Blogger\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.json
+C:\Users\jakub\source\repos\Blogger\Infrastructure\bin\Debug\net5.0\Infrastructure.runtimeconfig.dev.json
+C:\Users\jakub\source\repos\Blogger\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
